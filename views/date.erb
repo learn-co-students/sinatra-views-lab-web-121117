@@ -1,0 +1,12 @@
+<%
+
+require 'strftime'
+
+now = Time.now
+today = "#{now.strftime("%A")}, #{now.strftime("%B")} #{now.strftime("%d")}, #{now.strftime("%Y")}"
+
+%>
+
+<h1>Today</h1>
+
+<p>The date is <%= today %></p>

@@ -9,7 +9,8 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
-    
+gem 'strftime'
+
 group :test do
   gem 'rspec'
   gem 'capybara'
