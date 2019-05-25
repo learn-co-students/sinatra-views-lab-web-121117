@@ -1,0 +1,8 @@
+<% time = Time.now %>
+<% t = time.strftime('%A')%>
+<% day = time.strftime('%B')%>
+<% day_number = time.strftime('%d')%>
+<% year = time.strftime('%Y')%>
+
+<h1>Today</h1>
+<p><%= "The date is #{t}, #{day} #{day_number}, #{year}" %><p>
